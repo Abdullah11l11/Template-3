@@ -1845,9 +1845,9 @@ header .container .main-nav li .hover-nav ul li a i {
   height: 100%;
   opacity: 0.95;
 }
-.stats h1{
+.stats h2{
   position: relative;
-  font-size: 40px;
+  font-size: 30px;
   margin-bottom: 50px;
 }
 .stats .container {
@@ -1907,6 +1907,11 @@ header .container .main-nav li .hover-nav ul li a i {
   font-weight: bold;
   font-size: 20px;
   font-style: italic;
+}
+@media (max-width: 991px) {
+  .stats h2 {
+    font-size: 20px;
+  }
 }
 /* End Stats */
 /* Start Discount */
