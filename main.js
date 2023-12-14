@@ -75,14 +75,6 @@ let counter = setInterval(() => {
 
 }, 1000);
 
-let scrolling = document.querySelector('.scroll');
-let hieght = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-
-window.addEventListener('scroll', () => {
-  let per = document.documentElement.scrollTop * 100 / hieght ;
-  scrolling.style.width = `${per}%`;
-});
-
 document.querySelector('.other').addEventListener('click', () => {
   document.querySelector('header .container .main-nav>li:last-of-type .hover-nav').classList.toggle('on');
   document.querySelector('header .container .main-nav>li:last-of-type .hover-nav').classList.toggle('off');

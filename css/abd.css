@@ -360,7 +360,7 @@ header .container .main-nav li .hover-nav ul li a i {
 
   header .container .main-nav>li>a {
     padding: 0 10px;
-    font-size: 12px;
+    font-size: 11px;
   }
 
   header .container .main-nav li .hover-nav {
@@ -1908,7 +1908,7 @@ header .container .main-nav li .hover-nav ul li a i {
   font-size: 20px;
   font-style: italic;
 }
-@media (max-width: 991px) {
+@media (max-width: 767px) {
   .stats h2 {
     font-size: 20px;
   }
